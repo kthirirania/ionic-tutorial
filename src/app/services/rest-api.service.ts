@@ -6,7 +6,8 @@ import { catchError, tap, map } from 'rxjs/operators';
 const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'})
 };
-const apiUrl = "http://localhost:1337/localhost:3000/api/classroom";
+//const apiUrl = "http://localhost:1337/localhost:3000/api/classroom";
+const apiUrl = "https://ionic-tutorial-7a1c0.firebaseio.com/";
 
 @Injectable({
   providedIn: 'root'

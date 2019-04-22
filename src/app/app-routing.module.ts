@@ -21,7 +21,8 @@ const routes: Routes = [
   {
     path: 'edit/:id',
     loadChildren: './edit/edit.module#EditPageModule'
-  }
+  },
+  { path: 'create', loadChildren: './create/create.module#CreatePageModule' }
 ];
 
 @NgModule({
